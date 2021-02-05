@@ -65,6 +65,31 @@ https://pris.ly/d/getting-started
     
 `;
 
+exports[`warns when DATABASE_URL present in .env  2`] = `
+Environment variables loaded from .env
+
+✔ Your Prisma schema was created at prisma/schema.prisma.
+  You can now open it in your favorite editor.
+
+warn Prisma would have added DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public" but it already exists in .env
+
+Next steps:
+1. Set the DATABASE_URL in the .env file to point to your existing database. If your database has no tables yet, read https://pris.ly/d/getting-started
+2. Set the provider of the datasource block in schema.prisma to match your database: postgresql, mysql or sqlite.
+3. Run prisma introspect to turn your database schema into a Prisma data model.
+4. Run prisma generate to install Prisma Client. You can then start querying your database.
+
+More information in our documentation:
+https://pris.ly/d/getting-started
+    
+┌─────────────────────────────────────────────────────────┐
+│  Update available 2.11.0-dev.20 -> 2.17.0-dev.15        │
+│  Run the following to update                            │
+│    npm i --save-dev prisma@dev                          │
+│    npm i @prisma/client@dev                             │
+└─────────────────────────────────────────────────────────┘
+`;
+
 exports[`works with url param 1`] = `
 
 ✔ Your Prisma schema was created at prisma/schema.prisma.

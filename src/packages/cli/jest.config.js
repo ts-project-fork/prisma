@@ -1,5 +1,5 @@
 module.exports = {
-  preset: 'ts-jest',
+  transform: { '^.+\\.(t|j)sx?$': ['@swc-node/jest', { dynamicImport: true }] },
   testEnvironment: 'node',
   testMatch: ['**/src/__tests__/**/*.test.ts'],
   // todo duplicated serializer from client package, should share

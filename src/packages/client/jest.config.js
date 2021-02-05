@@ -1,5 +1,5 @@
 module.exports = {
-  preset: 'ts-jest',
+  preset: '@swc-node/jest',
   testEnvironment: 'node',
   collectCoverage: process.env.CI ? true : false,
   coverageReporters: ['clover'],

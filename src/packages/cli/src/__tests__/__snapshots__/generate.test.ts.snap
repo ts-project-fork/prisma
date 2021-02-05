@@ -1,5 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`should error with exit code 1 with incorrect schema 1`] = `
+Array [
+  Object {
+    email: bob@bob.bob,
+    id: 1,
+    name: Bobby Brown Sqlite,
+  },
+]
+`;
+
 exports[`should work with a custom output dir 1`] = `
 Prisma schema loaded from prisma/schema.prisma
 
